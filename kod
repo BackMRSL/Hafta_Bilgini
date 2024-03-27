@@ -1,0 +1,23 @@
+Console.WriteLine("Bugün haftanın kaçıncı günü? (1-7 arası rakamlar yazınız.)");
+            int gün = int.Parse(Console.ReadLine());
+            if (gün == 1 || gün == 2 || gün == 3 || gün == 4)
+            {
+                Console.WriteLine("📚Hafta İçi📚");
+            }
+
+            else if (gün == 5)
+            {
+                Console.WriteLine("⏰Okulun Son Günü⏰ (Hafta İçi)");
+            }
+
+            else if (gün == 6 || gün == 7)
+                Console.WriteLine("🌟Hafta Sonu🌟");
+
+            else
+                Console.WriteLine("Hatalı Bir Gün Girdiniz. Lütfen Tekrar Deneyiniz.");
+                
+                
+                
+                
+                
+NOT: BU KODU VISUAL STUDIO ADLI UYGULAMADA KULLANINIZ.
